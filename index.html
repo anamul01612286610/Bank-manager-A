@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class=" bg-orange-950 ">
+<header>
+    <h2 class="font-semibold text-5xl text-center mt-6 text-green-50">Let's get some  <span class="font-bold text-red-600">Money</span> </h2>
+</header>
+    <main>
+        <section  class="mt-12">
+         
+                <div class="grid grid-cols-3  gap-4  mx-auto w-9/12 ">               
+                    <div class="bg-yellow-300 p-8 rounded-xl ">
+                     <h3 class="text-2xl">Deposite</h3>
+                     <p class="text-4xl">$<span id="Total-Deposit">00</span></p>
+                    </div>
+            
+                    <div class="bg-green-300 p-8 rounded-xl ">
+                        <h3 class="text-2xl">withdraw</h3>
+                        <p class="text-4xl">$<span id="witdrow-Total">00</span></p>
+                       </div>
+
+                       <div class="bg-pink-300 p-8 rounded-xl ">
+                        <h3 class="text-2xl">Balance</h3>
+                        <p class="text-4xl">$<span id="BalanceC">000</span></p>
+                       </div>
+                   
+                  </div>
+            
+             <section class="mt-12 grid grid-cols-2  gap-4 mx-auto w-3/4">
+                <div class="bg-red-600  p-5 rounded-xl ">
+                    <h3 class=" text-2xl mb-4 text-white">please Deposit</h3>
+                    <input type="text" class="w-9/12 block mb-2 px-3 rounded-es-2xl" type="text" id="DepositFeildm" placeholder="$ amound want to Deposit">
+                     <button id="btn-submitDeposite" class="bg-green-600 p-2 px-5 rounded-es-2xl hover:bg-white">Submit</button>
+                </div>
+               
+                <div class="bg-red-600  p-8 rounded-xl ">
+                    <h3 class=" text-2xl mb-4 text-white">please windrow</h3>
+                    <input type="text" class="w-9/12 block mb-2 px-3 rounded-es-2xl" type="text" id="withdrawF" placeholder="$ amound want to Deposit">
+                     <button id="btn-submitwithdrow" class="bg-green-600 p-2 px-5 rounded-es-2xl hover:bg-white">Submit</button>
+                </div>
+               
+             </section>
+            
+           
+        </section>
+    >
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
